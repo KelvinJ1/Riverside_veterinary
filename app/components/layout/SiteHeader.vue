@@ -105,10 +105,10 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 
 .mobile-actions {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  gap: 0.9rem 1.25rem;
-  padding-bottom: 0.9rem;
+  gap: 0.85rem;
+  padding: 1.15rem 0 1.1rem;
 }
 
 .mobile-actions a {

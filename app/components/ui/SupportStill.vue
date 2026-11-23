@@ -48,7 +48,7 @@ const maskId = `still-${useId().replace(/[^a-zA-Z0-9_-]/g, '')}`
         :sizes="roomy ? '88vw lg:40vw' : '88vw lg:28vw'"
         loading="lazy"
         data-reveal="image"
-        class="photo zoom-photo"
+        class="photo zoom-photo h-full w-full"
         :class="crop"
         :style="{ clipPath: `url(#${maskId})` }"
       />
@@ -102,6 +102,7 @@ const maskId = `still-${useId().replace(/[^a-zA-Z0-9_-]/g, '')}`
   position: absolute;
   inset: 1.15rem 1.35rem 1.7rem 0.85rem;
   margin: 0;
+  overflow: hidden;
 }
 
 :deep(.photo) {
