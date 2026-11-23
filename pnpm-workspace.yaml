@@ -1,5 +1,5 @@
 allowBuilds:
-  esbuild: set this to true or false
+  esbuild: true
 minimumReleaseAgeExclude:
   - '@nuxtjs/robots@7.1.0'
   - '@nuxtjs/seo@6.1.0'
