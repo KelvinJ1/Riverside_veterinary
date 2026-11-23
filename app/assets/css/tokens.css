@@ -1,0 +1,50 @@
+:root {
+  color-scheme: light;
+  --color-ivory: #f6f3ea;
+  --color-paper: #fbfaf6;
+  --color-beige: #e7e0d4;
+  --color-line: #d8d0c4;
+  --color-ink: #1a2420;
+  --color-ink-soft: #3f4c46;
+  --color-forest: #21483d;
+  --color-forest-deep: #172c35;
+  --color-navy: #172c35;
+  --color-medical: #527fae;
+  --color-pale-blue: #dce8f2;
+  --color-sage: #5c6d58;
+  --color-sage-soft: #a8bba8;
+  --color-sand-accent: #d7ad72;
+  --color-danger: #8a2e2e;
+  --color-foam: var(--color-ivory);
+  --color-river: var(--color-forest);
+  --color-river-deep: var(--color-forest-deep);
+  --color-sand: #d7ad72;
+  --color-clay: var(--color-forest);
+  --color-clay-deep: #0f1f18;
+  --color-clay-soft: var(--color-sage-soft);
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+  --font-body: "Figtree", "Avenir Next", "Segoe UI", sans-serif;
+  --step--1: clamp(0.86rem, 0.82rem + 0.15vw, 0.95rem);
+  --step-0: clamp(1.02rem, 0.98rem + 0.2vw, 1.125rem);
+  --step-1: clamp(1.25rem, 1.1rem + 0.55vw, 1.5rem);
+  --step-2: clamp(1.6rem, 1.25rem + 1.2vw, 2.15rem);
+  --step-3: clamp(2.1rem, 1.45rem + 2.2vw, 3.15rem);
+  --step-4: clamp(2.55rem, 1.35rem + 3.5vw, 4.55rem);
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 6.5rem;
+  --radius: 0.125rem;
+  --shadow: none;
+  --header-pad: 0.85rem;
+}
+
+@media (min-width: 960px) {
+  :root {
+    --header-pad: 1rem;
+  }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Riverside Veterinary Hospital">
+  <rect width="32" height="32" rx="7" fill="#143834"/>
+  <path d="M5 13.5c2.2-2.3 3.6-2.3 5.8 0s3.6 2.3 5.8 0 3.6-2.3 5.8 0 3.6 2.3 4.6 1.1" fill="none" stroke="#F4F0E7" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M5 19.5c2.2-2.3 3.6-2.3 5.8 0s3.6 2.3 5.8 0 3.6-2.3 5.8 0 3.6 2.3 4.6 1.1" fill="none" stroke="#E7B5A4" stroke-width="1.7" stroke-linecap="round"/>
+</svg>

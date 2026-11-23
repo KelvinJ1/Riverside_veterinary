@@ -1,0 +1,53 @@
+
+---
+description: Project-wide development standards for Riverside Veterinary Hospital
+alwaysApply: true
+---
+
+# Role
+Act as a senior frontend engineer and technical architect.
+
+# Project
+Build a professional veterinary hospital website for Riverside Veterinary Hospital in Chattanooga, Tennessee.
+
+# Technology
+- Nuxt 4
+- Vue 3 Composition API
+- TypeScript
+- Tailwind CSS
+- Nuxt conventions and reusable components
+
+# Architecture
+- Keep components modular and reusable.
+- Separate business content and service data from presentation.
+- Avoid duplicated code.
+- Use clear naming conventions.
+- Keep pages lightweight.
+- Avoid unnecessary dependencies.
+- Do not introduce a backend unless required.
+
+# Design
+- Premium, trustworthy veterinary brand.
+- Forest green, medical blue, deep navy, warm ivory, and warm sand. Soft sage as a quiet support. Colors are assigned to roles, not scattered.
+- Responsive, mobile-first design.
+- Strong typography and visual hierarchy.
+- Professional veterinary photography.
+- Clear appointment and telephone CTAs.
+
+# Quality
+- Semantic HTML.
+- Accessible forms and navigation.
+- SEO metadata on every page.
+- Optimized images and performance.
+- No broken links or placeholder buttons.
+- Validate forms and provide meaningful feedback.
+- Never invent real business contact information.
+- Clearly distinguish demo functionality from live integrations.
+
+# Development workflow
+- Inspect existing files before changing configuration.
+- Implement incrementally.
+- Run the project and verify changes.
+- Fix errors before moving to the next major feature.
+- Avoid unnecessary abstractions and overengineering.
+- Prioritize a complete working MVP within the time limit.

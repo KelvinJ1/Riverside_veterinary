@@ -1,0 +1,49 @@
+html.motion [data-reveal] {
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 700ms ease,
+    transform 700ms ease;
+}
+
+html.motion [data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+html.motion [data-reveal="image"] {
+  opacity: 1;
+  transform: scale(1.07);
+  transition: transform 1100ms ease;
+}
+
+html.motion [data-reveal="image"].is-in {
+  transform: scale(1);
+}
+
+.zoom-photo {
+  transition: transform 700ms ease;
+}
+
+.group:hover .zoom-photo.is-in,
+.group:focus-visible .zoom-photo.is-in {
+  transform: scale(1.045);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.motion [data-reveal],
+  html.motion [data-reveal="image"],
+  html.motion [data-reveal].is-in,
+  html.motion [data-reveal="image"].is-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .zoom-photo,
+  .group:hover .zoom-photo.is-in,
+  .group:focus-visible .zoom-photo.is-in {
+    transform: none;
+    transition: none;
+  }
+}

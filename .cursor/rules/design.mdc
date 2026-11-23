@@ -1,0 +1,131 @@
+---
+description: Art direction and UX for Riverside Veterinary Hospital
+alwaysApply: true
+---
+
+# Design brief
+
+Build a distinctive, editorial experience for a premium, community veterinary hospital. This is not a generic veterinary template.
+
+Brand position: modern, trustworthy, compassionate veterinary healthcare.
+
+Two ideas carry the identity. Forest green is care, wellbeing, nature, and trust. Medical blue is clinical professionalism, cleanliness, confidence, and healthcare expertise.
+
+# Art direction
+
+- Warm, human, sophisticated, and reassuring. Editorial healthcare branding.
+- Warm ivory is the dominant page background.
+- Forest green for primary buttons, headings, and brand identity.
+- Medical blue only in selected sections and accents. Pale blue for secondary surfaces. Deep navy for selected high-contrast bands.
+- Soft sage and warm sand are quiet supporting colors. Do not distribute colors at random.
+- The homepage hero is locked. Keep its photograph, organic mask, sand curve, sage shapes, Poppins headline, and two CTAs. Do not redesign or replace it.
+- Other display headings stay in the serif. Body and UI stay in the sans.
+- Large animal portraits, real clinical moments, and editorial photographs with intentional grounds. Organic masks and asymmetric crops. One photographic treatment across the site.
+- Prefer fewer, better compositions over more components.
+
+# Color
+
+Primary:
+- Forest green `#21483D`
+- Deep navy `#172C35`
+
+Secondary:
+- Medical blue `#527FAE`
+- Pale blue `#DCE8F2`
+- Soft sage `#A8BBA8`
+
+Neutrals:
+- Warm ivory `#F6F3EA`
+- Warm sand `#D7AD72`
+
+Sage ink `#5C6D58` is reserved for the hero disc and small sage labels. Soft sage is too light for text on ivory.
+
+# Motion
+
+- Subtle reveals as sections enter the viewport.
+- A gentle zoom on photographs as they enter, and a restrained zoom on hover.
+- Slow movement on organic shapes only.
+- Honor `prefers-reduced-motion`. No parallax and no decorative motion that competes with the content.
+
+# UX
+
+- A visitor should immediately understand what the hospital offers.
+- Appointment scheduling and phone calls stay easy to find.
+- Services are easy to explore. Mobile navigation is intuitive.
+- Copy is written for real pet owners. Every section has a clear purpose.
+
+# Avoid
+
+- Generic AI landing-page aesthetics and repeating identical card grids.
+- Repetitive stock-photo cards.
+- Excessive rounded containers, badges, labels, and unnecessary animation.
+- Emoji as interface icons.
+- Fake reviews, statistics, or certifications.
+- Dense layouts and visual clutter.
+- Random color placement.
+
+# Process
+
+1. Inspect the project before changing the design system.
+2. Establish tokens, then page composition.
+3. The homepage hero is already accepted. Extend the language through the sections under it, then the other pages.
+4. Reuse the design language. Vary layouts so pages do not repeat the same structure.
+
+
+## GRID AND LAYOUT SYSTEM
+
+Editorial asymmetric layout is the primary language.
+
+Approximate weight across the site:
+- Half editorial asymmetric compositions.
+- A quarter full-bleed photography.
+- A fifth asymmetric bento.
+- A small share of split-screens and one-off compositions, including the locked hero.
+
+Do not apply the same grid composition to every page.
+
+DESKTOP:
+- 12-column grid.
+- 24px gutters.
+- Responsive page margins.
+- Intentional asymmetry and visual hierarchy.
+
+TABLET:
+- 8-column grid.
+- Adaptive component arrangements.
+
+MOBILE:
+- 4-column grid.
+- 16px gutters.
+- Preserve content hierarchy and readability.
+
+LAYOUT STRATEGY:
+
+1. Homepage:
+   The locked organic hero.
+   An asymmetric bento for the six services, with photography in selected cards only.
+   One full-bleed editorial photograph.
+   A deep-navy close for the visit and the phone number.
+
+2. Services:
+   The same asymmetric bento language, with varied card size and weight.
+
+3. About:
+   Editorial asymmetric split composition.
+   Large photography and narrative content.
+
+4. Contact:
+   Functional split-screen layout.
+   Contact information and form.
+
+5. Photography:
+   Use masonry only when a genuine image gallery is needed.
+
+DESIGN CONSTRAINTS:
+- Avoid repetitive card layouts.
+- Avoid symmetrical layouts by default.
+- Do not place every section inside a rounded container.
+- Use whitespace to establish visual rhythm.
+- Ensure every composition has a clear content purpose.
+- Never compromise mobile usability for desktop aesthetics.
+- Do not redesign the homepage hero.

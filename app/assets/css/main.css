@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "./tokens.css";
+@import "./base.css";
+@import "./motion.css";
+
+@theme {
+  --font-sans: "Figtree", "Avenir Next", "Segoe UI", sans-serif;
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+  --color-ivory: #f6f3ea;
+  --color-paper: #fbfaf6;
+  --color-beige: #e7e0d4;
+  --color-line: #d8d0c4;
+  --color-ink: #1a2420;
+  --color-muted: #3f4c46;
+  --color-forest: #21483d;
+  --color-forest-deep: #172c35;
+  --color-navy: #172c35;
+  --color-medical: #527fae;
+  --color-pale-blue: #dce8f2;
+  --color-sage: #5c6d58;
+  --color-sage-soft: #a8bba8;
+  --color-sand: #d7ad72;
+  --color-sand-accent: #d7ad72;
+  --text-display: clamp(2.75rem, 1.15rem + 4.8vw, 5.35rem);
+  --text-display--line-height: 0.96;
+  --text-display--letter-spacing: -0.035em;
+}
